@@ -23,8 +23,8 @@ Este portfólio foi criado com o objetivo de reunir e exibir meus trabalhos e pr
 
 Caso tenha interesse em conversar sobre projetos, parcerias ou oportunidades, entre em contato comigo:  
 
-- **Email**: [mailto:flaviannasaldanhadev@gmail.com]  
-- **LinkedIn**: [https://www.linkedin.com/in/flavianna-saldanha/]
+- **Email**: flaviannasaldanhadev@gmail.com  
+- **LinkedIn**: https://www.linkedin.com/in/flavianna-saldanha/
 
 ---
 
