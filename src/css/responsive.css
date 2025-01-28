@@ -1,0 +1,238 @@
+@media (min-width: 694px) and (max-width: 1250px) {
+    .menu-principal {
+        width: auto;
+        justify-content: space-around;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+
+    .container {
+        width: auto;
+    }
+    
+    .nome {
+        font-size: 58px;
+    }
+
+    .ap-left {
+        margin-bottom: 450px;
+    }
+
+    .ap-right img {
+        height: 480px;
+    }
+    
+    .foto {
+        margin: auto;
+        margin-top: 200px;
+    }
+
+    .redes-desc {
+        justify-content: space-around;
+    }
+
+    #sobre-mim {
+        width: auto;
+        margin: 0 20px;
+        gap: 0;
+    }
+    
+    .info-desc {
+        width: auto;
+    }
+
+    .sobre {
+        width: auto;
+        height: auto;
+        margin: 0 25px;
+    }
+
+    .minha-foto img {
+        width: auto;
+    }
+
+    .bi-code {
+        left: 35%;
+        bottom: -240px;
+    }
+
+    .bi-rocket-takeoff {
+        left: 87%;
+        bottom: -660px;
+    }
+
+    .meu-elemento {
+        display: none;
+    }
+
+    #projetos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .p-desc {
+        display: flex;
+        justify-content: center;
+    }
+
+    .linha-2 {
+        margin: auto;
+    }
+
+    .seta  {
+        right: 5px;
+    }
+
+}
+
+@media (min-width:300px) and (max-width: 693px) {
+    
+    .menu-principal {
+        width: 100%;
+    }
+
+    .menu-principal .left, .left strong {
+        margin-top: 15px;
+        font-size: 40px;
+    }
+    
+    .apresentacao {
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 15px;
+    }
+
+    .redes {
+        display: none;
+    }
+
+    .container {
+        width: auto;
+    }
+    
+    .nome {
+        font-size: 40px;
+    }
+
+    .desc {
+        width: 80px;
+        height: 30px;
+        margin-top: 15px;
+    }
+
+    .desc img {
+        width: 30px;
+    }
+    
+    .ap-left {
+        margin-bottom: 200px;
+    }
+    
+    .foto {
+        margin-top: 250px;
+    }
+
+    .ap-right img {
+        height: 280px;
+    }
+
+    .redes-desc {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;        
+    }
+
+    #sobre-mim {
+        flex-direction: column;
+        width: auto;
+    }
+    
+    .info-desc {
+        margin: 0 20px;
+        padding: 50px 0;
+        width: auto;
+        height: auto;
+    }
+
+    .sobre {
+        width: auto;
+        margin: 0 5px;
+    }
+
+    .minha-foto img, .bi-rocket-takeoff, .meu-elemento, .bi-code, .seta {
+        display: none;
+    }
+
+    .desc-2 {
+        margin-right: 80px;
+    }
+
+    #projetos {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+
+    .projeto {
+        width: auto;
+    }
+
+    .projeto-info {
+        display: none;
+    }
+
+    .projeto img {
+        width: 310px;
+        height: 153px;
+    }
+    
+    .links {
+        justify-content: space-evenly;
+    }
+
+    .links a {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+     .p-desc {
+        margin-left: 0;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .linha-2 {
+        width: 150px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    #contato {
+        gap: 15px;
+    }
+
+    .contato-info a {
+        width: 140px;
+        height: 150px;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    
+    .contato-info img {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+}
