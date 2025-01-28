@@ -23,7 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 15px 55px 15px 55px;
+    padding: 0 55px;
     position: relative;
 }
 
@@ -101,7 +101,6 @@ a:hover {
     width: 1200px;
     max-width: 1165px;
     margin: auto;
-    padding-top: 50px;
 }
 
 .apresentacao {
@@ -140,11 +139,12 @@ a:hover {
     font-size: 54px;
     width: 450px;
     text-align: center;
-    filter: drop-shadow(8px 8px 5px black);
+    filter: drop-shadow(8px 8px 5px rgb(0, 0, 0));
 }
 
 .foto {
     transform: rotate(5deg);
+    margin-top: -20px;
 }
     
 strong {
@@ -266,7 +266,7 @@ strong {
 .bi-code {
     position: absolute;
     left: 38%;
-    bottom: -335px;
+    bottom: -255px;
     width: 105px;
     height: 105px;
     transform: rotate(150deg);
@@ -276,7 +276,7 @@ strong {
 .bi-rocket-takeoff {
     position: absolute;
     left: 81%;
-    bottom: -770px;
+    bottom: -690px;
     width: 105px;
     height: 105px;
     opacity: 20%;
@@ -304,7 +304,7 @@ strong {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 180px;
     font-size: 40px;
     background-image: linear-gradient(to bottom, #130834, #38179A, #130834);
     background-clip: text;

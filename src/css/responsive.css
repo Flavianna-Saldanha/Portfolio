@@ -92,11 +92,6 @@
     .menu-principal {
         width: 100%;
     }
-
-    .menu-principal .left, .left strong {
-        margin-top: 15px;
-        font-size: 40px;
-    }
     
     .apresentacao {
         flex-direction: column-reverse;
@@ -127,11 +122,11 @@
     }
     
     .ap-left {
-        margin-bottom: 200px;
+        margin-bottom: 150px;
     }
     
     .foto {
-        margin-top: 250px;
+        margin-top: 120px;
     }
 
     .ap-right img {
