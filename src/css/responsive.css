@@ -152,7 +152,7 @@
     }
 
     .inicial::after {
-        clip-path: polygon(155% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(150% 0%, 100% 0%, 100% 100%, 0% 100%);
     }
 
     .redes {
@@ -164,14 +164,14 @@
     }
 
     .ap-left {
-        margin-top: 130px;
+        margin-top: 150px;
     }
     
     .desc {
-        left: 220px;
+        left: 140px;
         bottom: 18px;
-        width: 65px;
-        height: 30px;
+        width: 60px;
+        height: 25px;
     }
 
     .desc:after {
@@ -181,17 +181,17 @@
     }
 
     .desc img {
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
 
     .desc-2 {
-        font-size: 13px;
+        font-size: 12px;
     }
     
     .nome {
-        width: 350px;
-        font-size: 40px;
+        width: 250px;
+        font-size: 30px;
     }
 
     .ap-right {
