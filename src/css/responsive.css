@@ -45,9 +45,9 @@
     }
 
     .ap-right img {
-        height: 550px;
-        margin: 0;
-        margin-top: 88px;
+        height: 50vh;
+        margin-left: 10%;
+        margin-top: 90px;
     }
     
     .foto {
@@ -151,10 +151,6 @@
         justify-content: space-between;
     }
 
-    .ap-left {
-        
-    }
-
     .inicial::after {
         clip-path: polygon(150% 0%, 100% 0%, 100% 100%, 0% 100%);
     }
@@ -168,7 +164,7 @@
     }
 
     .ap-left {
-        margin-top: 100px;
+        margin-top: 130px;
     }
     
     .desc {
@@ -203,8 +199,9 @@
     }
 
     .ap-right img {
-        height: 400px;
-        margin: 0;
+        height: 40vh;
+        margin-left: 10%;
+        margin-top: 0px;
     }
 
     .frases {
