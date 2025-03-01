@@ -4,24 +4,50 @@
         justify-content: space-around;
     }
 
+    .inicial::after {
+        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
     .apresentacao {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .container {
         width: auto;
     }
+
+    .desc {
+        width: 70px;
+        height: 35px;
+    }
+
+    .desc:after {
+        border-left: 15px solid transparent;
+        border-top: 15px solid #ffffffde;
+        bottom: -14px;
+    }
+
+    .desc img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .desc-2 {
+        font-size: 14px;
+    }
     
     .nome {
-        font-size: 58px;
+        font-size: 50px;
     }
 
     .ap-left {
-        margin-bottom: 450px;
+        margin-top: 150px;
     }
 
     .ap-right img {
-        height: 480px;
+        height: 550px;
+        margin: 0;
+        margin-top: 88px;
     }
     
     .foto {
@@ -29,21 +55,41 @@
         margin-top: 200px;
     }
 
+    .minha-foto img {
+        width: auto;
+    }
+
     .redes-desc {
         justify-content: space-around;
     }
 
+    .frases {
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+    .frases .frases-desc {
+        font-size: 13px;
+    }
+
     #sobre-mim {
         width: auto;
-        margin: 0 20px;
-        gap: 0;
+        margin: 0 90px;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curriculo {
+        text-align: center;
     }
     
     .info-desc {
         width: auto;
     }
 
-    .sobre {
+    .sobre-mim-content {
         width: auto;
         height: auto;
         margin: 0 25px;
@@ -53,32 +99,40 @@
         width: auto;
     }
 
-    .bi-code {
-        left: 35%;
-        bottom: -240px;
-    }
-
-    .bi-rocket-takeoff {
-        left: 87%;
-        bottom: -660px;
-    }
-
     .meu-elemento {
         display: none;
     }
 
-    #projetos {
-        display: grid;
-        grid-template-columns: 1fr;
+    .cartao {
+        height: 360px;
+        width: 450px;
     }
 
-    .p-desc {
-        display: flex;
+    .personagens-slider {
         justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin: 0 65px;
     }
 
-    .linha-2 {
-        margin: auto;
+    .lista-personagens {
+        width: 550px;
+        height: 350px;
+    }
+
+    .cartao .descricao .titulo  {
+        font-size: 18px;
+    }
+
+    .cartao .descricao .texto {
+        font-size: 15px;
+        padding: 0 25px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
     }
 
     .seta  {
@@ -88,15 +142,21 @@
 }
 
 @media (min-width:300px) and (max-width: 693px) {
-    
     .menu-principal {
         width: 100%;
     }
     
     .apresentacao {
-        flex-direction: column-reverse;
-        height: auto;
-        gap: 15px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ap-left {
+        
+    }
+
+    .inicial::after {
+        clip-path: polygon(150% 0%, 100% 0%, 100% 100%, 0% 100%);
     }
 
     .redes {
@@ -106,31 +166,58 @@
     .container {
         width: auto;
     }
+
+    .ap-left {
+        margin-top: 300px;
+    }
     
-    .nome {
-        font-size: 40px;
+    .desc {
+        left: 140px;
+        bottom: 18px;
+        width: 60px;
+        height: 25px;
     }
 
-    .desc {
-        width: 80px;
-        height: 30px;
-        margin-top: 15px;
+    .desc:after {
+        border-left: 12px solid transparent;
+        border-top: 10px solid #ffffffde;
+        bottom: -9px;
     }
 
     .desc img {
-        width: 30px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .desc-2 {
+        font-size: 12px;
     }
     
-    .ap-left {
-        margin-bottom: 150px;
+    .nome {
+        width: 250px;
+        font-size: 30px;
     }
-    
-    .foto {
-        margin-top: 120px;
+
+    .ap-right {
+        margin-top: 0px;
     }
 
     .ap-right img {
-        height: 280px;
+        height: 400px;
+        margin: 0;
+    }
+
+    .frases {
+        flex-wrap: wrap;
+        padding: 80px 10px;
+    }
+    
+    .frases .frases-desc {
+        font-size: 13px;
+    }
+
+    .minha-foto img {
+        height: 250px;
     }
 
     .redes-desc {
@@ -142,13 +229,21 @@
     }
 
     #sobre-mim {
-        flex-direction: column;
         width: auto;
+        margin: 0 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curriculo {
+        text-align: center;
     }
     
-    .info-desc {
-        margin: 0 20px;
-        padding: 50px 0;
+    .meu-elemento {
+        display: none;
+    }
+
+    .sobre-mim-content {
         width: auto;
         height: auto;
     }
@@ -158,53 +253,48 @@
         margin: 0 5px;
     }
 
-    .minha-foto img, .bi-rocket-takeoff, .meu-elemento, .bi-code, .seta {
-        display: none;
-    }
-
     .desc-2 {
-        margin-right: 80px;
+        margin-right: 0;
+        text-align: end;
     }
 
-    #projetos {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: auto;
+    .cartao {
+        height: 260px;
+        width: 250px;
+        gap: 8px;
     }
 
-    .projeto {
-        width: auto;
+    .personagens-slider {
+        padding: 0 15px;
+        gap: 10px;
     }
 
-    .projeto-info {
-        display: none;
+    .lista-personagens {
+        width: 250px;
+        height: 250px;
     }
 
-    .projeto img {
-        width: 310px;
-        height: 153px;
-    }
-    
-    .links {
-        justify-content: space-evenly;
+    .cartao .descricao .titulo  {
+        font-size: 15px;
     }
 
-    .links a {
-        padding: 5px 15px;
+    .cartao .descricao .texto {
         font-size: 12px;
+        padding: 0 112px;
     }
 
-     .p-desc {
-        margin-left: 0;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
+    .btn-seta {
+        width: 4px;
+        height: 4px;
+        padding: 10px;
     }
 
-    .linha-2 {
-        width: 150px;
-        margin: auto;
-        margin-bottom: 50px;
+    .btn-seta img {
+        width: 20px;
+    }
+
+    .cartao .links a img {
+        width: 15px;
     }
 
     #contato {
@@ -231,3 +321,4 @@
     }
 
 }
+
